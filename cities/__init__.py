@@ -1,5 +1,8 @@
+import imp
 import pathlib 
 import random
+
+from .parser import init_parser
 
 def _read_cities_from_file()->list[str]:
     """

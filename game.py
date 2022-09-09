@@ -1,9 +1,8 @@
 import cities
-from parser import init_parser
 
 if __name__ == "__main__":
 
-    parser = init_parser() 
+    parser = cities.init_parser()
     args = parser.parse_args()
 
     if  args.city:
