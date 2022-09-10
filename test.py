@@ -1,5 +1,4 @@
 from cities import *
-import cities
 
 
 def test_find_cities():
